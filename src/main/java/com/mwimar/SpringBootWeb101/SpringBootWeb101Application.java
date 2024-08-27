@@ -11,6 +11,7 @@ public class SpringBootWeb101Application {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(SpringBootWeb101Application.class, args);
 		Student student = context.getBean(Student.class);
+		System.out.println(student.getAge());
 	}
 
 }
