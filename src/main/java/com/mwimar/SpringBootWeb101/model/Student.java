@@ -1,5 +1,6 @@
 package com.mwimar.SpringBootWeb101.model;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -7,9 +8,7 @@ public class Student {
     private int age;
     private String name;
 
-    public Student(int age, String name) {
-        this.age = age;
-        this.name = name;
+    public Student() {
     }
 
     public int getAge() {
@@ -38,7 +37,10 @@ public class Student {
                 '}';
     }
 
-public void Register(Dorm dorm){
+    @Autowired
+    private Dorm dorm;
+
+public void register(Dorm dorm){
     System.out.println("Registering student");
 
 }
