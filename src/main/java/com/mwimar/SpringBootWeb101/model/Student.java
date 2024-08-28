@@ -38,7 +38,10 @@ public class Student {
                 '}';
     }
 
+public void Register(Dorm dorm){
+    System.out.println("Registering student");
 
+}
 
 
 }
