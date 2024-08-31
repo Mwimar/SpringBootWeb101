@@ -4,7 +4,7 @@
       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
   <body>
-
+<div>
     <h2>My Calc</h2>
 
     <form action="add">
@@ -15,5 +15,6 @@
         <input type="submit" value="Submit">
 
     </form>
+    <div>
   </body>
 </html>
