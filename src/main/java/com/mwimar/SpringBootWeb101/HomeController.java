@@ -15,6 +15,7 @@ public class HomeController {
 
     @RequestMapping("/add")
     public String result(){
+        System.out.println("in add");
         return"result.jsp";
     }
 
