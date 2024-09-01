@@ -13,6 +13,7 @@ public class HomeController {
         return "index.jsp";
     };
 
+    @RequestMapping("/add")
     public String result(){
         return"result.jsp";
     }
