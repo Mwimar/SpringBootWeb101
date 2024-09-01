@@ -12,4 +12,9 @@ public class HomeController {
         System.out.println("Home method called");
         return "index.jsp";
     };
+
+    public String result(){
+        return"result.jsp";
+    }
+
 }
