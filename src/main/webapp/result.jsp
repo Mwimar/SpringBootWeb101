@@ -5,7 +5,7 @@
    </head>
   <body>
 
-    <h2>Result</h2>
+    <h2>Result is: <%session.getAttribute("result")%></h2>
 
 
 
