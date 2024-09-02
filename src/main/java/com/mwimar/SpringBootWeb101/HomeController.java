@@ -21,7 +21,8 @@ public class HomeController {
     public String result(@RequestParam("num1") int num, @RequestParam("num2")int num2, Model model){
 
         int result= num + num2;
-        session.setAttribute("result", result);
+        model.addAttribute("result", result);
+
         System.out.println(result);
         return"result.jsp";
     }
