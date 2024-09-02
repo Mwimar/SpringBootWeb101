@@ -35,7 +35,7 @@ public class HomeController {
 
         Alien alien = new Alien();
 
-        mv.addObject();
+        mv.addObject("alien", alien);
 //        model.addAttribute("result", result);
         mv.setViewName("result");
 
