@@ -33,6 +33,7 @@ public class HomeController {
     @RequestMapping("/addAlien")
     public ModelAndView addAlien(@RequestParam("aid") int aid, @RequestParam("aname")String  aname, ModelAndView mv){
 
+        Alien alien = new Alien();
 
         mv.addObject();
 //        model.addAttribute("result", result);
