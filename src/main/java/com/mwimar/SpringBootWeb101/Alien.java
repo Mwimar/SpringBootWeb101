@@ -19,4 +19,12 @@ public class Alien {
     public void setAname(String aname) {
         this.aname = aname;
     }
+
+    @Override
+    public String toString() {
+        return "Alien{" +
+                "aid=" + aid +
+                ", aname='" + aname + '\'' +
+                '}';
+    }
 }
