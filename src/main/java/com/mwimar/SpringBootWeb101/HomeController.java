@@ -12,6 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HomeController {
+    public String courseName(){
+        return "Java";
+    }
 
     @RequestMapping("/")
     public String home(){
@@ -32,7 +35,7 @@ public class HomeController {
     }
 
     @RequestMapping("/addAlien")
-    public String addAlien(@ModelAttribute("alien1") Alien alien){
+    public String addAlien( Alien alien){
 
 //        Alien alien = new Alien();
 //        alien.setAid(aid);

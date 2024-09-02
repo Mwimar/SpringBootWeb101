@@ -6,8 +6,8 @@
   <body>
 
     <!-- <h2>Result is: <%= session.getAttribute("result") %></h2> -->
-    <h2>Welcome </h2>
-     <p>${alien1} </p>
+    <h2>Welcome to ${course} </h2>
+     <p>${alien} </p>
 
 
 
