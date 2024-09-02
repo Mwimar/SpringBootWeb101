@@ -24,6 +24,7 @@ public class HomeController {
         int result= num + num2;
         mv.addObject("result", result);
 //        model.addAttribute("result", result);
+        mv.setViewName("result");
 
         System.out.println(result);
         return mv;
