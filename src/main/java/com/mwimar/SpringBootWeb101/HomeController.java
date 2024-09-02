@@ -30,4 +30,16 @@ public class HomeController {
         return mv;
     }
 
+    @RequestMapping("/addAlien")
+    public ModelAndView addAlien(@RequestParam("aid") int aid, @RequestParam("aname")String  aname, ModelAndView mv){
+
+
+        mv.addObject();
+//        model.addAttribute("result", result);
+        mv.setViewName("result");
+
+        System.out.println();
+        return mv;
+    }
+
 }
